@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "uzum-drf"
+version = "0.1.0"
+description = ""
+authors = ["ozoda <ozodas531@gmail.com>"]
+readme = "README.md"
+packages = [{include = "uzum_drf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
